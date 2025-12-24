@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* BALL UI */
+.ball-display {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.ball.red {
+  background: red;
+  color: white;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #222;
+  color: white;
+}
+
+/* TABLE BALL WRAPPER */
+.table-balls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Smaller balls inside table */
+.table-balls .ball {
+  width: 32px;
+  height: 32px;
+  font-size: 13px;
+}
+
+/* FREQUENCY */
+#frequency {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.freq-box {
+  background: white;
+  padding: 6px;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}

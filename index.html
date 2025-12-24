@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lottery Number Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Lottery Number Generator</h1>
+
+<div class="controls">
+  <button id="generateBtn">Generate Numbers</button>
+  <button id="clearBtn">Clear Saved Results</button>
+</div>
+
+<!-- Ball Display -->
+<div id="ballDisplay" class="ball-display"></div>
+
+<!-- Results Table -->
+<table>
+  <thead>
+    <tr>
+      <th>Draw #</th>
+      <th>White Balls</th>
+      <th>Red Ball</th>
+    </tr>
+  </thead>
+  <tbody id="resultsTable"></tbody>
+</table>
+
+<!-- Frequency Analysis -->
+<h2>Frequency Analysis</h2>
+<div id="frequency"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
