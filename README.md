@@ -1,2 +1,2 @@
 # random-number-draw
-Powerball style number generator
+Powerball style lottery number generator
